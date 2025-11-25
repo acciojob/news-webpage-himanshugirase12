@@ -1,50 +1,59 @@
-/*  your css code here. If applicable */
-body{
-	margin:0;
-	padding:0;
-	background-color : #f5f5f5;
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-.header{
-	text-align:center;
-	background-color: #011e29;
-	padding:20px;
-	color:white;
+
+/* Header Styling */
+.header {
+    background-color: #011e29;
+    text-align: center;
+    padding: 30px;
+    color: white;
 }
-.container{
-	display:flex;
+
+/* Layout container */
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
 	gap:10px;
-	
 }
 
-
-.latest-news-section{
-	background-color:white;
-	width:200px;
-	height:130px;
-	text-align:center;
-	border-radius:8px;
-	margin-left:10px;
+/* Latest News Section */
+.latest-news-section {
+    background-color: white;
+    padding: 25px;
+    width: 22%;
+    border-radius: 15px;
 }
 
-.main{
-	padding:10px;
-	text-align:center;
-	width:290px;
-	background-color:white;
-	border-radius:8px;
-	height:200px;
+.latest-news-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
 }
 
-.pictorial-news-section{
-	text-align:center;
-	background-color:white;
-	border-radius:8px;
-	width:220px;
-	padding:10px;
-	margin-right:10px;
+/* Main Article */
+.main-article {
+    background-color: white;
+    padding: 25px;
+    width: 40%;
+    text-align: center;
+    border-radius: 15px;
 }
 
-.container .pictorial-news-section img{
-	width:150px;
-	
+/* Pictorial News Section */
+.pictorial-news-section {
+    background-color: white;
+    padding: 25px;
+    width: 22%;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.pictorial-news-section img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
